@@ -165,13 +165,12 @@ td, th {
 
 a.rss_logo {
   float: right;
-  padding: 3px 1px;
+  padding: 5px 2px;
   width: 35px;
   line-height: 10px;
-  border: 1px solid;
-  border-color: #fcc7a5 #7d3302 #3e1a01 #ff954e;
   color: #ffffff;
   background-color: #ff6600;
+  border-radius: 3px;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 80%;
@@ -571,17 +570,19 @@ td.pre, div.pre, div.diff {
 
 /* Highlighting theme definition: */
 
-.num    { color:#6ecf36; }
-.esc    { color:#ff00ff; }
-.str    { color:#ff00d3; background-color: #edc9ec }
+.num    { color:#0000ff; }
+.esc    { color:#000080; }
+.str    { color:#008000; font-weight: bold;}
 .dstr   { color:#818100; }
-.slc    { color:#838183; font-style:italic; }
-.com    { color:#838183; font-style:italic; }
+.slc    { color:#808080; font-style:italic; }
+.com    { color:#808080; font-style:italic; }
 .dir    { color:#008200; }
 .sym    { color:#000000; }
 .line   { color:#555555; }
-.kwa    { color:#666666; font-weight:bold; }
-.kwb    { color:#6b3099; }
-.kwc    { color:#d4663d; }
-.kwd    { color:#2928ff; }
-
+.kwa    { color:#000080; font-weight:bold; }
+.kwb    { color:#000080; font-weight:bold; }
+.kwc    { color:#808000; }
+.kwd    { color:#660e7a; }
+.ppc    { color:#006666;}
+a.linenr {color: #555555; text-decoration: none;}
+a.linenr:hover {color: #ff6600; text-decoration: none;}
