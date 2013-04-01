@@ -7,7 +7,7 @@ A custom `gitweb`_ theme derived from Stefan Imhoff's `GitHub-like theme`_.
 This version has a flatter, higher contrast look and garish orange hyperlinks (if you use this theme you'll probably want to switch back to Stefan's original blue colour).
 
 .. _gitweb: http://git.or.cz/gitwiki/Gitweb
-.. _kogakure.github.com/gitweb-theme: http://kogakure.github.com/gitweb-theme
+.. _GitHub-like theme: http://kogakure.github.com/gitweb-theme
 
 Licence
 =======
